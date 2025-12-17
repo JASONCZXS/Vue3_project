@@ -1,0 +1,47 @@
+import type { MenusType } from '../type/menutype';
+
+export const menuList: MenusType[] = [
+    {
+        name:'home',
+        path:'/Home',
+        label:'首页',
+        icon:'HomeFilled',
+        url:'Home',
+    },
+    {
+        name:'mall',
+        path:'/mall',
+        label:'商品管理',
+        icon:'Goods',
+        url:'Mall',
+    },
+    {
+        name:'user',
+        path:'/user',
+        label:'用户管理',
+        icon:'UserFilled',
+        url:'User',
+    },
+        {
+        name:'other',
+        path:'/other',
+        label:'其他',
+        icon:'MoreFilled',
+        children:[
+            {
+                name:'page1',
+                path:'/page1',
+                label:'页面1',
+                icon:'Histogram',
+                url:'Page1',
+            },
+            {
+                name:'page2',
+                path:'/page2',
+                label:'页面2',
+                icon:'Comment',
+                url:'Page2',
+            },
+        ]
+    },
+];
