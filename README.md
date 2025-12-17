@@ -1,3 +1,6 @@
-# Vue 3 + TypeScript + Vite
+# View 3 + TypeScript + Fast
 
-在线预览
+
+在线预览 https://jasonczxs.github.io/Vue3_project/ 
+管理员账号：admin 密码：123456
+用户账号: user 密码:123456
