@@ -6,6 +6,7 @@ import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/Vue3_project/',
   plugins: [
     vue(),
     // 自动导入Element Plus组件和API

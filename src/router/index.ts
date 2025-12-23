@@ -12,7 +12,7 @@ const routes:RouteRecordRaw[] = [
         // 懒加载
         component:()=>import('@/views/Main.vue'),
         // 访问根路径时，默认重定向到home页面
-        redirect:'/login',
+        redirect:'/home',
         children:[],
     },
     // 登录页面
