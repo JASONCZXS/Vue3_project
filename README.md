@@ -1,7 +1,15 @@
-# Vue 3 + TypeScript + Vite
+# View 3 + TypeScript + Element-Plus 后台管理系统
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
-"# Vue3_project" 
-"# Vue3-" 
+## 项目在线预览
+
+[在线预览](https://jasonczxs.github.io/Vue3_project/)
+
+## 测试账号
+
+- 管理员账号：admin  
+  密码：123456
+
+- 用户账号：user  
+  密码：123456
+
