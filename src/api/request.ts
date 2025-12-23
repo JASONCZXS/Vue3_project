@@ -13,7 +13,11 @@ const service: AxiosInstance = axios.create({
 service.interceptors.request.use(
     (config: InternalAxiosRequestConfig) =>{
         // 可以在这里添加请求头等操作
-        return config
+    const token = localStorage.getItem('token')
+    if (token) {
+      config.headers.Authorization = `Bearer ${token}`
+    }
+    return config
     },
     (error) =>{
         // 请求错误处理
