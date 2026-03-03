@@ -6,9 +6,9 @@ import type { UserTableType } from '@/type/usertabletype'
 const userList = ref([])
 const action = ref('add')
 const dialogVisible = ref(false)
-//表单提交的数据
+// 表单绑定的数据模型：用户在弹窗中填写/编辑的内容，最终会提交给后端接口
 const formUser = reactive<UserTableType>({})
-//表单的实例
+// 表单组件实例引用：用来调用 validate / resetFields 等方法做校验和重置
 const userForm = ref<FormInstance|null>(null)
 //表单验证
 const rules = reactive({

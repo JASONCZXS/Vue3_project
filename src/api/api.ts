@@ -62,6 +62,14 @@ export function updateUser(data:any){
     }) 
 }
 
+// 请求获取商品列表（Mall页面）
+export function fetchMallGoodsList(){
+    return request({
+        url:'/mall/getGoodsList',
+        method:'get',
+    })
+}
+
 //
 export  function fetchPermission(data:any){
     return request({
